@@ -14,7 +14,7 @@ h1{
     color: darkblue;
 }
 #my-image img{
-    box-shadow: 0,2px,1px black;
+    box-shadow: 0px, 0px, 2px, 1px black;
 }
 li:nth-child(odd){
     background-color: violet;
