@@ -1,0 +1,66 @@
+h1{
+    color:deeppink
+}
+/* this is a demo comment ctrl forward / */
+h1{
+    background-color: lightgray;
+     padding: 1rem;
+     margin: 2rem;
+}
+h1, h2, h3{
+    border: 1px solid darkgray;
+}
+p{
+    font-weight: 600;
+}
+div p{
+    font-weight: 200;
+}
+.highlight{
+    background-color: lightpink;
+}
+/* when targeting an id  */
+#explain{
+    border: 3px solid lightgray;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+li:nth-child(even){
+    background-color: lightpink;
+}
+li:nth-child(2n+1){
+    background-color: rgb(192, 35, 216);
+}
+
+.goals{
+    color: rgb(89, 2, 97);
+    background-color: rgb(161, 210, 253);
+}
+#test{
+    background-color: aquamarine;
+    color: cadetblue;
+}
+a:link {
+    color: lightblue;
+  }
+  a:visited {
+    color: purple;
+  }
+  a:hover,
+a:focus {
+  background-color: hotpink;
+  color: white;
+}
+
+a:active {
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+p{
+    font-size: 18px;
+}
+span{
+    color: red;
+}
+span{
+    color: inherit;
+}
