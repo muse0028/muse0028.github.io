@@ -13,6 +13,6 @@ footer{
 h1{
     color: darkblue;
 }
-#my-image{
+#my-image img{
     box-shadow: 0,2px,1px black;
 }
