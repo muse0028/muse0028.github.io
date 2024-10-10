@@ -10,6 +10,9 @@ h1{
 footer{
     background-color: lightpink;
 }
-#site-title{
+h1{
     color: darkblue;
+}
+#my-image{
+    box-shadow: 0,2px,1px black;
 }
