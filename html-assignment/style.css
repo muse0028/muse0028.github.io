@@ -16,3 +16,6 @@ h1{
 #my-image img{
     box-shadow: 0,2px,1px black;
 }
+li:nth-child(odd){
+    background-color: violet;
+}
