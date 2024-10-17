@@ -19,3 +19,6 @@ h1{
 li:nth-child(odd){
     background-color: violet;
 }
+ul{
+    list-style: none;
+}
