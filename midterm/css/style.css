@@ -1,0 +1,143 @@
+
+#lone-starfish-wide{
+width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+header{
+    position: relative;
+    margin: 0 auto;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    font-size: 68px;
+}
+
+h2{
+    font-weight: 200;
+    font-size: 36px;
+    padding: 28px 10px;
+    clear: left;
+}
+
+#lone-starfish{
+    float: left;
+    width: 20%;
+    position: relative;
+    left: 10px;
+}
+
+.para{
+    line-height: 1.5rem;
+    margin-left: 23%;
+}
+
+main{
+    background-color: #d4e9e7;
+    overflow: hidden;
+}
+
+body{
+    background-color: #aad4cf;
+    width: 80%;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+ul{
+    list-style-type: disc;
+    margin-left: 25px;
+}
+
+form{
+    border: 2px solid black;
+    padding: 40px 10px;
+    margin: 5px 11px;
+}
+
+#fullname{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 8px 0px;
+    padding: 5px;
+}
+
+#useremail{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 8px 0px;
+    padding: 5px;
+}
+
+#message{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 8px 0px;
+    padding: 50px;
+}
+h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+button{
+    background-color: #d4e9e7;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid black;
+    padding: 10px 10px;
+    position: relative;
+    display: block;
+    bottom: -20px;
+}
+
+footer{
+    background-color: #d4e9e7;
+    text-align: end;
+    margin-bottom: 9px;
+    padding: 30px 9px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black
+    }
+a:visited {
+    text-decoration: none;
+    color: black;
+    }
+a:hover {
+    text-decoration: underline;
+    }
+a:active {
+    text-decoration: underline;
+}
+
+nav{
+    background-color: #d4e9e7;
+    font-size: 2rem;
+    overflow: hidden;
+}    
+nav li{
+width: 30%;
+padding: 6px;
+text-transform: uppercase;
+text-align: center;
+display: inline-block;
+}
+
+nav li ~ li{
+position: relative;
+border-left: 2px solid gray;
+top: 5px;
+}
