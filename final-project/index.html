@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Final Project</title>
 
 </head>
@@ -24,9 +26,11 @@
         </ul>
     </nav>
         <section class="home" id="home">
+            <div class="container">
             <h1> Welcome to Three Star Media</h1>
             <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, quia. Voluptatibus ipsam dolore dicta soluta repudiandae modi sint voluptatum assumenda ipsa aspernatur voluptate provident, doloremque saepe veritatis asperiores! Accusantium, culpa!</p>
             <a href="#content">Connect with us <i class="fa-solid fa-play"></i></a>
+        </div>
         </section>
      </header>
     <main>
@@ -79,23 +83,33 @@
         </article>
 
         <article class="vision" id="vision">
+            <div class="container-vision">
         <h2>Our Vision</h2>
         <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, quibusdam dolorum laudantium eos blanditiis deleniti pariatur, veniam consectetur, temporibus culpa explicabo illum odio. Delectus dicta perspiciatis at sapiente, ipsa atque!</p>
         <a>Learn More <i class="fa-solid fa-play"></i></a>
+         </div>
         </article>
 
         <article class="team" id="team">
             <div class="slides">
                 <h2>Our Team</h2>
+                <div class="john-img">
                 <img src="./images/john.jpg" alt="">
+                </div>
+                <div class="john-text">
                 <h3>John Doe</h3>
                 <h4>CEO and Co-owner</h4>
                 <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem incidunt consectetur qui minima et. Molestiae sequi consectetur totam nam, quidem architecto similique error a cum sit possimus? Beatae, reprehenderit tempore!</p>
+                </div>
 
+                <div class="bob-img">
                 <img src="./images/bob.jpg" alt="">
+                </div>
+                <div class="bob-text">
                 <h3>Bob Rite</h3>
                 <h4>CFO and Co-owner</h4>
                 <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem incidunt consectetur qui minima et. Molestiae sequi consectetur totam nam, quidem architecto similique error a cum sit possimus? Beatae, reprehenderit tempore!</p>
+                </div>
             </div>
         </article>
         
@@ -115,14 +129,26 @@
                 </div> 
 
                 <div class="hours">
-                <h3>Hours of operation</h3>
-                    <div class="container">
-                        <p>Days</p>
-                        <p>Hours</p>
-                        <p>Monday - Friday</p>
-                        <p>9 AM - 6 PM</p>
-                        <p>Saturday - Sunday</p>
-                        <p>Closed</p>
+                    <h3>Hours of operation</h3>
+                    <div class="table">
+                    <table border="1">
+                     <thead>
+                        <tr>
+                         <th colspan="3">Days</th>
+                         <th colspan="2">Hours</th>
+                         </tr>
+                        </thead>
+                         <tbody>
+                         <tr>
+                        <td colspan="3">Monday - Friday</td>
+                         <td colspan="2">9 AM - 6 PM</td>
+                        </tr>
+                         <tr>
+                        <td colspan="3">Saturday - Sunday</td>
+                        <td colspan="2">Closed</td>
+                        </tr>
+                        </tbody>
+                        </table>
                     </div>
                 </div>
 
@@ -140,7 +166,7 @@
         &copy; Copyright Three Star Media, 2020
     </p>    
     <p>
-        All images are taken from Upsplash
+        All images are taken from <span>Upsplash</span>
     </p>
     </footer>
     <!-- fontawesome icons -->
